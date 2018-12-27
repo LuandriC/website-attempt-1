@@ -1,0 +1,237 @@
+/** BASE STYLES **/
+h1 {
+  font-family: 'Lily Script One', cursive;
+  color: #00282a;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Lily Script One', cursive;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.home-button {
+  padding: 20px 0px 0px 20px;
+}
+
+/** GRIDS **/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/** HEADER **/
+header .full-width {
+  height: 750px;
+  background-image: url(../img/flower-hero.png);
+  background-size: cover;
+}
+
+nav {
+  text-align: right;
+  padding: 20px 10px;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav li a {
+  font-size: 15px;
+  color: #e10c2b;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #e10c2b;
+  font-size: 45px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/** ABOUT **/
+
+#about .full-width {
+  background-color: #dbce54;
+  height: 750px;
+}
+
+.profile-pic {
+  margin-left: 70px;
+}
+
+#about h1 {
+  font-size: 110px;
+  margin-top: -5px;
+  margin-bottom: -20px;
+  padding-left: 50px;
+}
+
+#about p {
+  font-size: 20px;
+  letter-spacing: 0,5px;
+  line-height: 25px;
+  margin-right: 80px;
+  padding-left: 50px;
+}
+
+/** WORK **/
+
+#work .full-width {
+  height: 750px;
+}
+
+#work h1 {
+  font-size: 40px;
+}
+
+#work h4 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#work p {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 25px;
+  margin: 0 35px 0 35px;
+  text-align: center;
+}
+
+.logo-image {
+  margin-left: 80px;
+  border-radius: 80%;
+}
+
+.website-image {
+  margin-left: 60px;
+  border-radius: 80%;
+}
+
+.branding-image {
+  margin-left: 60px;
+  border-radius: 80%;
+}
+
+.website-subheading {
+  padding-top: 90px;
+}
+
+.branding-subheading {
+  padding-top: 50px;
+}
+
+/** SKILLS **/
+
+#skills .full-width {
+  height: 750px;
+}
+
+#skills h1 {
+  font-size: 110px;
+  line-height: 50px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.ux-ui-icon {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.css-icon {
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+.branding-icon {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#skills h3 {
+  font-size: 40px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+#skills p {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  margin: 0 40px 0 40px;
+  text-align: center;
+}
+
+/*** FOOTER ***/
+
+#contact .full-width {
+  background-color: #dbce54;
+  height: 750px;
+}
+
+#contact h1 {
+  font-size: 110px;
+  line-height: 10px;
+  margin-top: 140px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.email {
+  color: #e10c2b;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#contact ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+#contact ul li {
+  margin: 5px 10px;
+}
